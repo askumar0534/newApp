@@ -1,0 +1,10 @@
+<h1>Hi <%= @user.email %></h1>
+
+<h2>Congratulations just you created product in <%= link_to "myApp", root_path %></h2>
+<h3>Product details are below</h3>
+<p>Product Name: <%= @product.name %></p>
+<p>Product price: <%= @product.price %></p>
+<p>Category: <%= Category.find(@product.category_id).name %></p>
+
+<h2>Thank you so much </h2>
+

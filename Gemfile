@@ -11,7 +11,7 @@ gem 'rails', '4.1.8'
 group :development, :test do
 gem 'sqlite3'
 end
-
+gem 'pry'
 group :production do
 gem 'pg'
 gem 'rails_12factor'

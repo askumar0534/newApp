@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'categories/new'
+
+  get 'categories/create'
+  post 'categories/create'
+
   resources :products
 
   devise_for :admin_users, ActiveAdmin::Devise.config
