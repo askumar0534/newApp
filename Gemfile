@@ -4,6 +4,7 @@ gem 'devise'
 gem 'activeadmin', github: 'activeadmin'
 gem 'cancancan', '~> 1.10'
 gem "twitter-bootstrap-rails"
+gem 'carrierwave'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
