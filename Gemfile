@@ -9,7 +9,12 @@ gem "twitter-bootstrap-rails"
 gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
-gem 'sqlite3'
+	gem 'sqlite3'
+	gem 'capistrano'
+	gem 'capistrano3-puma'
+	gem 'capistrano-rails' , require: false
+	gem 'capistrano-bundler', require: false
+	gem 'capistrano-rvm'
 end
 
 group :production do
@@ -48,4 +53,5 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem 'figaro'
+gem 'puma'
