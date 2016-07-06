@@ -12,9 +12,9 @@ gem 'rails', '4.1.8'
 group :development, :test do
 	gem 'sqlite3'
 	gem 'capistrano'
-	gem 'capistrano3-puma'
-	gem 'capistrano-rails' , require: false
-	gem 'capistrano-bundler', require: false
+	
+	gem 'capistrano-rails' 
+	gem 'capistrano-bundler'
 	gem 'capistrano-rvm'
 end
 
